@@ -1,0 +1,412 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+		    xmlns:mc="clr-namespace:WebsoftWorkspaceM.Messenger.Controls"
+             x:Class="WebsoftWorkspaceM.Styles.Messenger_Chat">
+
+	<ResourceDictionary.MergedDictionaries>
+		<ResourceDictionary Source="/Resources/Styles/GlobalColors.xaml"/>
+	</ResourceDictionary.MergedDictionaries>
+
+
+	<Color x:Key="Light_MessengerInactiveIconSecondColor">#999999</Color>
+	<Color x:Key="Dark_MessengerInactiveIconSecondColor">#999999</Color>
+
+	<Color x:Key="Light_MessengerSeparatorColor">#21212114</Color>
+	<Color x:Key="Dark_MessengerSeparatorColor">#21212114</Color>
+
+
+
+
+	<Style Class="ChatPageLayout" TargetType="Grid">
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light=White, Dark=White}"/>
+	</Style>
+	<Style Class="ChatPageSeparator" TargetType="BoxView">
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light=White, Dark=White}"/>
+		<Setter Property="Margin" Value="0"/>
+		<!--<Setter Property="Padding" Value="0,0,0,5"/>-->
+	</Style>
+	<Style Class="ChatPageMessageMovement" TargetType="Grid">
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light={x:StaticResource Light_StaticPrimaryBackColor}, Dark={x:StaticResource Dark_StaticPrimaryBackColor}}"/>
+		<Setter Property="Margin" Value="10"/>
+		<Setter Property="ColumnSpacing" Value="10"/>
+		<Setter Property="ColumnDefinitions" Value="5,*,40"/>
+	</Style>
+	
+	<Style Class="ChatPageMessageMovementTitle" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light=Black, Dark=Black}"/>
+	</Style>
+	<Style Class="ChatPageMessageMovementText" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light={x:StaticResource Light_StaticButtonColor}, Dark={x:StaticResource Dark_StaticButtonColor}}"/>
+	</Style>
+	<Style Class="ChatPageMessageMovementButton" TargetType="Button">
+		<Setter Property="BackgroundColor" Value="Transparent"/>
+		<Setter Property="FontSize" Value="Medium"/>
+		<Setter Property="TextColor" Value="{AppThemeBinding Light=Black, Dark=Black}"/>
+	</Style>
+
+	<Style Class="ChatPageMessageMovementStack" TargetType="VerticalStackLayout">
+		<Setter Property="Padding" Value="5"/>
+		<Setter Property="Spacing" Value="5"/>
+	</Style>
+	
+
+	
+	<Style Class="ChatEditingTitleBlock" TargetType="Grid">
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#F4F4F4, Dark=#F4F4F4}"/>
+		<Setter Property="ColumnDefinitions" Value="*,40"/>
+	</Style>
+	<Style Class="ChatEditingTitleBlockLabel" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light=Black, Dark=Black}"/>
+		<Setter Property="Margin" Value="10"/>
+		<Setter Property="FontFamily" Value="DefaultFontBold"/>
+	</Style>
+	<Style Class="ChatEditingTitleBlockButton" TargetType="Button" >
+		<Setter Property="BackgroundColor" Value="Transparent"/>
+		<Setter Property="FontSize" Value="Medium"/>
+	</Style>
+	<Style Class="ChatSelectedFilesBlock" TargetType="VerticalStackLayout" >
+		<Setter Property="Padding" Value="0"/>
+		<Setter Property="Margin" Value="0"/>
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light={x:StaticResource Light_StaticPrimaryBackColor}, Dark={x:StaticResource Dark_StaticPrimaryBackColor}}"/>
+	</Style>
+	<Style Class="ChatSelectedFilesList" TargetType="CollectionView" >
+		<Setter Property="HeightRequest" Value="150"/>
+		<Setter Property="Margin" Value="10,0"/>
+	</Style>
+	<Style Class="ChatSelectedFileBlock" TargetType="Grid" >
+		<Setter Property="WidthRequest" Value="120"/>
+		<Setter Property="Margin" Value="0,0,5,5"/>
+		<Setter Property="RowDefinitions" Value="*,25"/>
+		<Setter Property="ColumnDefinitions" Value="*"/>
+	</Style>
+	<Style Class="ChatSelectedFileImageFrame" TargetType="Border" >
+		<Setter Property="WidthRequest" Value="120"/>
+		<Setter Property="HeightRequest" Value="120"/>
+		<Setter Property="Margin" Value="10,0"/>
+		<Setter Property="StrokeShape" Value="RoundRectangle 10"/>
+		<Setter Property="Stroke" Value="Transparent"/>
+	</Style>
+	<Style Class="ChatSelectedFileTitle" TargetType="Label" >
+		<Setter Property="TextColor" Value="{AppThemeBinding Light=Black, Dark=Black}"/>
+		<Setter Property="FontSize" Value="16"/>
+		<Setter Property="LineBreakMode" Value="TailTruncation"/>
+		<Setter Property="VerticalOptions" Value="End"/>
+		<Setter Property="TextColor" Value="{AppThemeBinding Light={x:StaticResource Light_StaticSecondaryTextColor}, Dark={x:StaticResource Light_StaticSecondaryTextColor}}"/>
+	</Style>
+	<Style Class="ChatSelectedFilesClear" TargetType="Label" >
+		<Setter Property="TextColor" Value="{AppThemeBinding Light={x:StaticResource Light_StaticButtonColor}, Dark={x:StaticResource Dark_StaticButtonColor}}"/>
+		<Setter Property="FontSize" Value="16"/>
+		<Setter Property="Margin" Value="10"/>
+		<Setter Property="HorizontalOptions" Value="End"/>
+	</Style>
+	<Style Class="ChatSelectedFileXFrame" TargetType="Border" >
+		<Setter Property="StrokeShape" Value="RoundRectangle 5"/>
+		<Setter Property="WidthRequest" Value="10"/>
+		<Setter Property="HeightRequest" Value="10"/>
+		<Setter Property="Padding" Value="0"/>
+		<Setter Property="BackgroundColor" Value="Transparent"/>
+	</Style>
+	<Style Class="ChatSelectedFileXTitle" TargetType="Label" >
+		<Setter Property="TextColor" Value="{AppThemeBinding Light=White, Dark=White}"/>
+		<Setter Property="FontSize" Value="18"/>
+		<Setter Property="Margin" Value="0"/>
+	</Style>
+	<Style Class="ChatSendArea" TargetType="Grid" >
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#f6f6f6, Dark=#f6f6f6}"/>
+	</Style>
+	<Style Class="ChatSendPanelFrame" TargetType="Border" >
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light={x:StaticResource Light_StaticSecondaryBackColor}, Dark={x:StaticResource Dark_StaticSecondaryBackColor}}"/>
+		<Setter Property="Margin" Value="10"/>
+		<Setter Property="StrokeShape" Value="RoundRectangle 10"/>
+		<Setter Property="Stroke" Value="Transparent"/>
+	</Style>
+	<Style Class="ChatSendPanel" TargetType="Grid">
+		<Setter Property="RowDefinitions" Value="Auto"/>
+		<Setter Property="ColumnDefinitions" Value="40,*,40"/>
+	</Style>
+
+
+	<Style Class="ChatActionButton" TargetType="Image" >
+		<Setter Property="WidthRequest" Value="20"/>
+		<!--<Setter Property="Opacity" Value="0.5"/>-->
+	</Style>
+
+
+	<Style Class="ReplyImageBlockFrame" TargetType="Border" >
+		<Setter Property="StrokeShape" Value="RoundRectangle 5"/>
+		<!--<Setter Property="WidthRequest" Value="30"/>
+		<Setter Property="HeightRequest" Value="30"/>-->
+		<Setter Property="Padding" Value="0"/>
+	</Style>
+
+	<Style Class="MessageImageItem" TargetType="VerticalStackLayout" >
+		<!--<Setter Property="WidthRequest" Value="80"/>
+		<Setter Property="HeightRequest" Value="80"/>-->
+		<Setter Property="HorizontalOptions" Value="Fill"/>
+		<Setter Property="VerticalOptions" Value="Fill"/>
+	</Style>
+	<Style Class="MessageImage" TargetType="Image" >
+		<!--<Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#f3f3f3, Dark=#f3f3f3}"/>-->
+		<Setter Property="WidthRequest" Value="120"/>
+		<Setter Property="HeightRequest" Value="120"/>
+		<Setter Property="HorizontalOptions" Value="Fill"/>
+		<Setter Property="VerticalOptions" Value="Fill"/>
+		<Setter Property="BackgroundColor" Value="Transparent"/>
+	</Style>
+	<Style Class="MessageImageDesc" TargetType="Label" >
+		<!--<Setter Property="MaximumWidthRequest" Value="90"/>-->
+		<Setter Property="FontSize" Value="Micro"/>
+		<Setter Property="Margin" Value="0,5,0,0"/>
+		<Setter Property="TextColor" Value="{AppThemeBinding Light={x:StaticResource Light_StaticSecondaryTextColor}, Dark={x:StaticResource Dark_StaticSecondaryTextColor}}"/>
+		<Setter Property="MaximumWidthRequest" Value="120"/>
+		<Setter Property="LineBreakMode" Value="TailTruncation"/>
+	</Style>
+
+	<Style Class="MessageImagesContainer" TargetType="FlexLayout">
+		<Setter Property="HorizontalOptions" Value="Fill"/>
+		<Setter Property="JustifyContent" Value="Start"/>
+		<Setter Property="AlignItems" Value="Start"/>
+		<Setter Property="AlignContent" Value="Start"/>
+		<Setter Property="VerticalOptions" Value="Start"/>
+		<Setter Property="Wrap" Value="Wrap"/>
+	</Style>
+	<Style Class="MessageImageBlockFrame" TargetType="Border">
+		<Setter Property="StrokeShape" Value="RoundRectangle 10"/>
+		<!--<Setter Property="WidthRequest" Value="100"/>
+		<Setter Property="HeightRequest" Value="100"/>-->
+		<Setter Property="HorizontalOptions" Value="Start"/>
+		<Setter Property="VerticalOptions" Value="Start"/>
+
+
+		<Setter Property="Padding" Value="0"/>
+		<Setter Property="BackgroundColor" Value="White"/>
+	</Style>
+
+	<Style Class="MessageImageBlockStack" TargetType="VerticalStackLayout">
+		<Setter Property="HorizontalOptions" Value="Start"/>
+		<Setter Property="Margin" Value="0,0,5,5"/>
+	</Style>
+
+	<!--TODO: Think of using x:Key, removing Class and assigning Style to controls manually for "code-behind" visual elements-->
+
+
+	
+	<Style Class="MessageTimeStack" TargetType="HorizontalStackLayout">
+		<Setter Property="HorizontalOptions" Value="Start"/>
+		<Setter Property="Spacing" Value="5"/>
+	</Style>
+	<Style Class="MessageTime" TargetType="Label">
+		<Setter Property="FontSize" Value="Micro"/>
+		<Setter Property="TextColor" Value="{AppThemeBinding Light={x:StaticResource Light_MessengerInactiveIconSecondColor}, Dark={x:StaticResource Dark_MessengerInactiveIconSecondColor}}"/>
+		<Setter Property="HorizontalTextAlignment" Value="Start"/>
+	</Style>
+	<Style Class="MessageReply" TargetType="Grid">
+		<Setter Property="ColumnSpacing" Value="10"/>
+		<Setter Property="ColumnDefinitions" Value="5,*"/>
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#D9E2F0, Dark=#D9E2F0}"/>
+	</Style>
+	<Style Class="MessageReplyAuthor" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light=Black, Dark=Black}"/>
+	</Style>
+	<Style Class="MessageReplyText" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light={x:StaticResource Light_PlaceholderColor}, Dark={x:StaticResource Dark_PlaceholderColor}}"/>
+	</Style>
+	<Style Class="MessageReplyLine" TargetType="BoxView">
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light={x:StaticResource Light_StaticButtonColor}, Dark={x:StaticResource Dark_StaticButtonColor}}"/>
+		<Setter Property="VerticalOptions" Value="Fill"/>
+		<Setter Property="HorizontalOptions" Value="Fill"/>
+	</Style>
+	<Style Class="MessageReferenceFrame" TargetType="Border">
+		<Setter Property="StrokeShape" Value="RoundRectangle 5"/>
+		<Setter Property="Stroke" Value="Transparent"/>
+	</Style>
+	<Style Class="MessageSelection" TargetType="CheckBox">
+		<Setter Property="WidthRequest" Value="20"/>
+	</Style>
+	<Style Class="MessageForward" TargetType="Grid">
+		<Setter Property="ColumnSpacing" Value="10"/>
+		<Setter Property="ColumnDefinitions" Value="5,*"/>
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#D9E2F0, Dark=#D9E2F0}"/>
+	</Style>
+	<Style Class="MessageForwardText" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light={x:StaticResource Light_PlaceholderColor}, Dark={x:StaticResource Dark_PlaceholderColor}}"/>
+	</Style>
+	<Style Class="MessageForwardLine" TargetType="mc:IOS_crutch_ForwardLine">
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light={x:StaticResource Light_StaticButtonColor}, Dark={x:StaticResource Dark_StaticButtonColor}}"/>
+		<Setter Property="VerticalOptions" Value="Fill"/>
+		<Setter Property="HorizontalOptions" Value="Fill"/>
+	</Style>
+
+	<Style Class="MessageReactionBorder" TargetType="Border">
+		<Setter Property="BackgroundColor" Value="White"/>
+		<Setter Property="StrokeShape" Value="RoundRectangle 5"/>
+		<Setter Property="Padding" Value="5"/>
+	</Style>
+	<Style Class="MessageReactionEmo" TargetType="Label">
+		<Setter Property="FontSize" Value="20"/>
+		<Setter Property="TextColor" Value="Black"/>
+		<Setter Property="VerticalOptions" Value="Center"/>
+	</Style>
+	<Style Class="MessageReactionCounter" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light=Black, Dark=Black}"/>
+		<Setter Property="VerticalOptions" Value="Center"/>
+		<Setter Property="FontFamily" Value="DefaultFontBold"/>
+	</Style>
+
+	<Style Class="MessageItemsStack" TargetType="VerticalStackLayout">
+		<Setter Property="HorizontalOptions" Value="Fill"/>
+		<Setter Property="Spacing" Value="5"/>
+	</Style>
+
+	<!--<Style Class="OutgoingMessage" TargetType="mc:ChatView+MessageBubble">
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light={x:StaticResource Light_BleakBGColor}, Dark={x:StaticResource Dark_BleakBGColor}}"/>
+		<Setter Property="StrokeShape" Value="RoundRectangle 10"/>
+		<Setter Property="Padding" Value="10"/>
+	</Style>-->
+	<Style Class="OutgoingMessageBlock" TargetType="Grid">
+		<Setter Property="Margin" Value="10,5,10,5"/>
+		<Setter Property="ColumnDefinitions" Value="*,Auto"/>
+	</Style>
+
+	<!-- STYLISH!!!-->
+	<!--MK2-->
+	<Style Class="OutgoingMessage" TargetType="Border">
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light={x:StaticResource Light_BleakBGColor}, Dark={x:StaticResource Dark_BleakBGColor}}"/>
+		<Setter Property="StrokeShape" Value="RoundRectangle 10"/>
+		<Setter Property="Padding" Value="10"/>
+	</Style>
+
+	<Style Class="OutgoingMessageText" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light=#151515, Dark=#151515}"/>
+	</Style>
+	<Style Class="OutgoingMessageTextLink" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light=#4864F8, Dark=#4864F8}"/>
+		<Setter Property="TextDecorations" Value="Underline"/>
+	</Style>
+
+	<!--<Style Class="OutgoingMessageTime" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light=#969EB2, Dark=#969EB2}"/>
+		<Setter Property="HorizontalTextAlignment" Value="End"/>
+	</Style>-->
+	<Style Class="OutgoingMessageIsRead" TargetType="Image">
+		<Setter Property="WidthRequest" Value="14"/>
+		<Setter Property="HeightRequest" Value="14"/>
+	</Style>
+
+
+	<!--<Style Class="IncomingMessage" TargetType="mc:ChatView+MessageBubble">
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#F4F4F4, Dark=#F4F4F4}"/>
+		<Setter Property="StrokeShape" Value="RoundRectangle 10"/>
+		<Setter Property="Padding" Value="10"/>
+	</Style>-->
+	<Style Class="IncomingMessageBlock" TargetType="Grid">
+		<Setter Property="Margin" Value="10,5,10,5"/>
+		<Setter Property="ColumnDefinitions" Value="50,*,Auto,Auto"/>
+	</Style>
+
+	<!-- STYLISH!!!-->
+	<!--MK2-->
+	<Style Class="IncomingMessage" TargetType="Border">
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#F4F4F4, Dark=#F4F4F4}"/>
+		<Setter Property="StrokeShape" Value="RoundRectangle 10"/>
+		<Setter Property="Padding" Value="10"/>
+	</Style>
+
+
+
+
+	<!--<Style Class="IncomingMessageLeftBlock" TargetType="Grid">
+		<Setter Property="WidthRequest" Value="50"/>
+	</Style>-->
+	<Style Class="IncomingMessageText" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light=black, Dark=black}"/>
+	</Style>
+	<Style Class="IncomingMessageTextLink" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light=#4864F8, Dark=#4864F8}"/>
+		<Setter Property="TextDecorations" Value="Underline"/>
+	</Style>
+	<Style Class="IncomingMessageSender" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light=gray, Dark=gray}"/>
+		<Setter Property="FontSize" Value="12"/>
+	</Style>
+	<!--<Style Class="IncomingMessageTime" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light=#969EB2, Dark=#969EB2}"/>
+		<Setter Property="HorizontalTextAlignment" Value="Start"/>
+	</Style>-->
+
+
+	<Style Class="SystemMessage" TargetType="Border">
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#f5f7ff, Dark=#f5f7ff}"/>
+		<Setter Property="Margin" Value="10,5"/>
+		<Setter Property="Stroke" Value="Transparent"/>
+		<Setter Property="StrokeShape" Value="RoundRectangle 5"/>
+		<Setter Property="Padding" Value="10"/>
+	</Style>
+	<Style Class="SystemMessageLayout" TargetType="VerticalStackLayout">
+		<Setter Property="Margin" Value="5"/>
+	</Style>
+	<Style Class="SystemMessageText" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light={x:StaticResource Light_GrayPadColor}, Dark={x:StaticResource Dark_GrayPadColor}}"/>
+		<Setter Property="HorizontalTextAlignment" Value="Center"/>
+		<Setter Property="FontSize" Value="12"/>
+	</Style>
+	<Style Class="SystemMessageTime" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light={x:StaticResource Light_GrayPadColor}, Dark={x:StaticResource Dark_GrayPadColor}}"/>
+		<Setter Property="HorizontalTextAlignment" Value="Start"/>
+		<Setter Property="FontSize" Value="10"/>
+	</Style>
+
+
+	<Style Class="ArtificialMessage" TargetType="Border">
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light=#f5f7ff, Dark=#f5f7ff}"/>
+		<Setter Property="Stroke" Value="Transparent"/>
+		<Setter Property="StrokeShape" Value="RoundRectangle 5"/>
+		<Setter Property="Padding" Value="10"/>
+		<Setter Property="Margin" Value="10,5,10,5"/>
+	</Style>
+
+	<Style Class="ArtificialMessageText" TargetType="Label">
+		<Setter Property="TextColor" Value="{AppThemeBinding Light={x:StaticResource Light_GrayPadColor}, Dark={x:StaticResource Dark_GrayPadColor}}"/>
+		<Setter Property="HorizontalTextAlignment" Value="Center"/>
+		<Setter Property="FontSize" Value="14"/>
+	</Style>
+
+	<Style Class="ChatMsgSelectionPopup" TargetType="Grid">
+		<Setter Property="ColumnDefinitions" Value="80,*,80"/>
+		<Setter Property="ColumnSpacing" Value="0"/>
+		<Setter Property="RowDefinitions" Value="1,50"/>
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light=White, Dark=White}"/>
+	</Style>
+
+	<Style Class="ChatMsgSelectionPopupBtnFrame" TargetType="Border">
+		<Setter Property="StrokeShape" Value="RoundRectangle 10"/>
+		<Setter Property="Stroke" Value="Transparent"/>
+		<Setter Property="Margin" Value="0,5"/>
+	</Style>
+	<Style Class="ChatMsgSelectionPopupTitle" TargetType="Label">
+		<Setter Property="HorizontalOptions" Value="Center"/>
+		<Setter Property="FontFamily" Value="DefaultFontBold"/>
+		<Setter Property="VerticalOptions" Value="Center"/>
+		<Setter Property="FontSize" Value="Medium"/>
+		<Setter Property="TextColor" Value="{AppThemeBinding Light={x:StaticResource Light_StaticPrimaryTextColor}, Dark={x:StaticResource Dark_StaticPrimaryTextColor}}"/>
+	</Style>
+	<Style Class="ChatMsgSelectionPopupBtnImage" TargetType="ImageButton">
+		<Setter Property="WidthRequest" Value="24"/>
+		<Setter Property="HeightRequest" Value="24"/>
+		<Setter Property="CornerRadius" Value="0"/>
+	</Style>
+	<Style Class="Separator" TargetType="BoxView">
+		<Setter Property="HeightRequest" Value="1"/>
+		<Setter Property="BackgroundColor" Value="{AppThemeBinding Light={x:StaticResource Light_MessengerSeparatorColor}, Dark={x:StaticResource Dark_MessengerSeparatorColor}}"/>
+	</Style>
+
+	<Style Class="ChatUserIsTypingNotification" TargetType="Label">
+		<Setter Property="VerticalOptions" Value="End"/>
+		<Setter Property="HorizontalOptions" Value="Start"/>
+		<Setter Property="Margin" Value="5"/>
+		<Setter Property="FontSize" Value="Small"/>
+		<Setter Property="TextColor" Value="{AppThemeBinding Light={x:StaticResource Light_StaticSecondaryTextColor}, Dark={x:StaticResource Dark_StaticSecondaryTextColor}}"/>
+	</Style>
+
+</ResourceDictionary>

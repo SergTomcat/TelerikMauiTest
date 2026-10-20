@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://schemas.microsoft.com/dotnet/2021/maui" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WebsoftWorkspaceM.Messenger.IncoimingMessageView"
+		   xmlns:local="clr-namespace:WebsoftWorkspaceM.Messenger"
+		   xmlns:OurControls="clr-namespace:WebsoftWorkspaceM.Messenger.Controls"
+		   xmlns:c="clr-namespace:WebsoftWorkspaceM.Messenger.Converters"
+		   
+		      xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+			 x:DataType="local:Message"
+			 >
+	<ContentView.Resources>
+		<ResourceDictionary>
+			<toolkit:IsNotNullConverter x:Key="IsNotNullConverter" />
+			<c:UrlToImageAsyncConverter x:Key="UrlToImageAsync" />
+		</ResourceDictionary>
+	</ContentView.Resources>
+
+	<Grid HorizontalOptions="Fill" StyleClass="IncomingMessageBlock">
+
+
+		<Border StyleClass="ChatIcon" VerticalOptions="Start" HorizontalOptions="Start" IsVisible="{Binding StreakBreak}">
+			<Image Source="{Binding User.ResUrl}" Aspect="AspectFill"/>
+		</Border>
+
+		<OurControls:ChatIcon Source="{Binding User}" Updatable="True"/>
+
+
+		<VerticalStackLayout HorizontalOptions="Fill" Grid.Column="1">
+			<Label Text="{Binding Path=User.Name}" StyleClass="IncomingMessageSender" IsVisible="{Binding StreakBreak}"/>
+			<Border StyleClass="Message,IncomingMessage">
+
+				<Border.StrokeShape>
+					<RoundRectangle CornerRadius="0,5,5,5"/>
+				</Border.StrokeShape>
+				<VerticalStackLayout StyleClass="MessageItemsStack">
+					<Grid ColumnDefinitions="5,*" IsVisible="{Binding HasReply}" VerticalOptions="Start" StyleClass="MessageReply">
+						<OurControls:IOS_crutch_ForwardLine StyleClass="MessageForwardLine" Grid.Column="0"/>
+						<VerticalStackLayout Grid.Column="1" StyleClass="ChatPageMessageMovementStack">
+							<Label Text="{Binding Path=Reply.User.Name}" StyleClass="ChatPageMessageMovementText"/>
+							<HorizontalStackLayout BindableLayout.ItemsSource="{Binding Reply.Attachments}" IsVisible="{Binding Reply.HasSomething}" HorizontalOptions="Start">
+								<BindableLayout.ItemTemplate>
+									<DataTemplate x:DataType="local:Attachment">
+										<Border StyleClass="ReplyImageBlockFrame" StrokeShape="RoundRectangle 5">
+											<Image BindingContext="{Binding ., Converter={StaticResource UrlToImageAsync}, x:DataType=local:Attachment}" Source="{Binding Result}" x:DataType="c:GenericAsyncViewModel_ImageSource" Aspect="AspectFill" StyleClass="MessageImage" IsAnimationPlaying="True"    />
+										</Border>
+									</DataTemplate>
+								</BindableLayout.ItemTemplate>
+							</HorizontalStackLayout>
+							<Label Text="{Binding Path=Reply.Text}" StyleClass="Text" MaxLines="2" LineBreakMode="TailTruncation"/>
+						</VerticalStackLayout>
+						<Grid.GestureRecognizers>
+							<TapGestureRecognizer Tapped="ReplyTap_Handler"/>
+						</Grid.GestureRecognizers>
+					</Grid>
+					<Grid ColumnDefinitions="5,*" IsVisible="{Binding HasForward}" VerticalOptions="Start" StyleClass="MessageReply">
+						<OurControls:IOS_crutch_ForwardLine StyleClass="MessageForwardLine" Grid.Column="0"/>
+						<VerticalStackLayout Grid.Column="1" StyleClass="ChatPageMessageMovementStack">
+							<Label Text="{Binding Path=ForwardInfo}" StyleClass="ChatPageMessageMovementText"/>
+							<HorizontalStackLayout BindableLayout.ItemsSource="{Binding Forwarded.Message.Attachments}" IsVisible="{Binding Forwarded.Message.HasSomething}" HorizontalOptions="Start">
+								<BindableLayout.ItemTemplate>
+									<DataTemplate x:DataType="local:Attachment">
+										<Border StyleClass="ReplyImageBlockFrame" StrokeShape="RoundRectangle 5">
+											<Image BindingContext="{Binding ., Converter={StaticResource UrlToImageAsync}, x:DataType=local:Attachment}" Source="{Binding Result}" x:DataType="c:GenericAsyncViewModel_ImageSource" Aspect="AspectFill" StyleClass="MessageImage" IsAnimationPlaying="True"    />
+										</Border>
+									</DataTemplate>
+								</BindableLayout.ItemTemplate>
+							</HorizontalStackLayout>
+							<Label Text="{Binding Path=Forwarded.Message.Text}" StyleClass="Text" LineBreakMode="WordWrap"/>
+						</VerticalStackLayout>
+						<Grid.GestureRecognizers>
+							<TapGestureRecognizer Tapped="ForwardedTap_Handler"/>
+						</Grid.GestureRecognizers>
+					</Grid>
+					<!--<OurControls:HyperLabelLight Text="{Binding Text}" LabelStyleClass="MessageText,IncomingMessageText" LinkStyleClass="MessageTextLink,IncomingMessageTextLink"/>-->
+					<OurControls:MessageBlockFormattedLabel MessageDataSource="{Binding TextBlocks}" LabelStyleClass="MessageText,IncomingMessageText" LinkStyleClass="MessageTextLink,IncomingMessageTextLink"/>
+					<!--<Label Text="{Binding Text}" StyleClass="MessageText,IncomingMessageText" LineBreakMode="WordWrap" TextType="Html">
+
+					</Label>-->
+					<FlexLayout BindableLayout.ItemsSource="{Binding Attachments}" IsVisible="{Binding HasSomething}" StyleClass="MessageImagesContainer">
+						<BindableLayout.ItemTemplate>
+							<DataTemplate x:DataType="local:Attachment">
+								<VerticalStackLayout StyleClass="MessageImageBlockStack">
+									<Border StyleClass="MessageImageBlockFrame" StrokeShape="RoundRectangle 10" HorizontalOptions="Start" VerticalOptions="Start" FlexLayout.AlignSelf="Start">
+										<Image BindingContext="{Binding ., Converter={StaticResource UrlToImageAsync}, x:DataType=local:Attachment}" Source="{Binding Result}" x:DataType="c:GenericAsyncViewModel_ImageSource" Aspect="AspectFill" StyleClass="MessageImage" IsAnimationPlaying="True">
+										</Image>
+										<Border.GestureRecognizers>
+											<TapGestureRecognizer Tapped="AttachmentTapGestureRecognizer_Handler"/>
+										</Border.GestureRecognizers>
+									</Border>
+									<Label Text="{Binding Name}" StyleClass="MessageText,IncomingMessageText,MessageImageDesc"/>
+								</VerticalStackLayout>
+							</DataTemplate>
+						</BindableLayout.ItemTemplate>
+					</FlexLayout>
+				
+					<Label Text="{Binding TimeCute}" StyleClass="MessageTime,IncomingMessageTime" HorizontalOptions="Start"/>
+
+
+					<ContentView IsVisible="{Binding HasReactions}">
+					<FlexLayout AlignItems="Start" AlignContent="Start" Wrap="Wrap" HorizontalOptions="Start" BindableLayout.ItemsSource="{Binding Reactions}">
+						<BindableLayout.ItemTemplate>
+							<DataTemplate x:DataType="local:Reaction">
+								<Border StyleClass="MessageReactionBorder">
+									<Grid RowDefinitions="Auto" ColumnDefinitions="28,Auto">
+										<Label Text="{Binding Emoji}" StyleClass="MessageReactionEmo"/>
+										<Label Text="{Binding Counter}" Grid.Column="2" StyleClass="MessageReactionCounter"/>
+									</Grid>
+									<Border.Triggers>
+										<DataTrigger TargetType="Border" Binding="{Binding Mine, Mode=OneWay}" Value="True">
+											<Setter Value="Pink" Property="BackgroundColor"/>
+										</DataTrigger>
+									</Border.Triggers>
+								</Border>
+							</DataTemplate>
+						</BindableLayout.ItemTemplate>
+							<FlexLayout.GestureRecognizers>
+								<TapGestureRecognizer Command="{x:Static local:IncoimingMessageView.ReactionPanelTapped_Command}" CommandParameter="{Binding .}"/>
+							</FlexLayout.GestureRecognizers>
+					</FlexLayout>
+					</ContentView>
+				</VerticalStackLayout>
+			</Border>
+
+		</VerticalStackLayout>
+
+		<CheckBox HorizontalOptions="End" StyleClass="MessageSelection" IsVisible="{Binding SelectionMode}" IsChecked="{Binding SelectedLoud}" Grid.Column="3"/>
+		
+	</Grid>
+</ContentView>
+

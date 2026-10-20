@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<Shell
+    x:Class="TelerikMauiTest.AppShell"
+    xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:local="clr-namespace:TelerikMauiTest"
+    xmlns:m="clr-namespace:WebsoftWorkspaceM.Messenger"
+    Title="TelerikMauiTest">
+
+
+	<ShellContent
+   Title="Home"
+   ContentTemplate="{DataTemplate local:MainPage}"
+   Route="MainPage" />
+
+
+	<ShellContent Title="Chat"
+           ContentTemplate="{DataTemplate m:ChatPage}" Route="ChatPage"/>
+
+	
+		
+
+</Shell>

@@ -1,0 +1,915 @@
+[
+	{
+		"id": "xi27eliyrb",
+		"text": [
+			{
+				"text": "Анисимов Геннадий Федорович добавил(-а) в разговор Анисимов Геннадий Федорович, Захаров Дмитрий Валерьевич, Вилкова Ольга Николаевна и ещё 1 участника(-ов)"
+			}
+		],
+		"type_id": "system",
+		"disabled_data": false,
+		"conversation_id": "7342098911638021680",
+		"state_id": "active",
+		"block_message_id": "7342098912284406156",
+		"sender": {},
+		"create_date": "2026-10-20T16:56:57+00:00",
+		"edit_date": null,
+		"timestamp": "639281122172140251",
+		"message_state_id": "not_read",
+		"recipient_state_id": "read",
+		"recipients": [],
+		"disp_roles": [],
+		"message": {
+			"type": "add_participant"
+		},
+		"files": [],
+		"reply": {
+			"state": ""
+		},
+		"replys": [],
+		"forward": {
+			"state": ""
+		},
+		"reactions": [],
+		"my_reaction": ""
+	},
+	{
+		"id": "1m2oz8bpsf",
+		"text": [
+			{
+				"text": "The Five Books of the Lives and Deeds of Gargantua and Pantagruel",
+				"attributes": [
+					"b"
+				]
+			},
+			{
+				"text": " (French: "
+			},
+			{
+				"text": "Les Cinq livres des faits et dits de Gargantua et Pantagruel",
+				"attributes": [
+					"i"
+				]
+			},
+			{
+				"text": "),[a] often shortened to Gargantua and Pantagruel or the Cinq Livres (Five Books),[1] is a pentalogy of novels written in the 16th century by François Rabelais."
+			},
+			{
+				"text": " It tells the adventures of two giants, Gargantua (/ɡɑːrˈɡæntjuə/ gar-GAN-tew-ə; French: [ɡaʁɡɑ̃tɥa]) and his son Pantagruel (/pænˈtæɡruɛl, -əl, ˌpæntəˈɡruːəl/ pan-TAG-roo-el, -⁠əl, PAN-tə-GROO-əl; French: [pɑ̃taɡʁyɛl]). The work is written in an amusing, extravagant, and satirical vein, features much erudition, vulgarity, and wordplay, and is regularly compared with the works of William Shakespeare and James Joyce.[2][3]: xlii–v  [4]: xvii–iii  Rabelais was a polyglot, and the work introduced \"a great number of new and difficult words ... into the French language\".",
+				"attributes": [
+					"b"
+				]
+			}
+		],
+		"type_id": "message",
+		"disabled_data": false,
+		"conversation_id": "7342098911638021680",
+		"state_id": "active",
+		"block_message_id": "7342098912284406156",
+		"sender": {
+			"id": "1105387902724063510",
+			"icon_url": "https://img.magnific.com/free-vector/smiling-young-man-illustration_1308-174669.jpg",
+			"type": "websoft.hcm.collaborator",
+			"disp_name": "Анисимов Геннадий Федорович"
+		},
+		"create_date": "2026-10-20T16:57:59+00:00",
+		"edit_date": null,
+		"timestamp": "639281122798271058",
+		"message_state_id": "not_read",
+		"recipient_state_id": "read",
+		"recipients": [],
+		"disp_roles": [],
+		"files": [
+			{
+				"id": "7342099169839332669",
+				"type": "img",
+				"name": "image.png",
+				"url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Page11-682px-Rabelais_-_Pantagruel%2C_ca_1530.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+				"status": "publish"
+			}
+		],
+		"reply": {
+			"state": ""
+		},
+		"replys": [],
+		"forward": {
+			"state": ""
+		},
+		"reactions": [
+			{
+				"reaction_id": "1F44D",
+				"reaction_count": 2
+			}
+		],
+		"my_reaction": "1F44D"
+	},
+	{
+		"id": "z9wj3ecxkk",
+		"text": [
+			{
+				"text": "The work was stigmatised as obscene by the censors of the Collège de la Sorbonne. In a social climate of increasing religious oppression in the lead up to the French Wars of Religion, contemporaries treated it with suspicion and avoided mentioning it."
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "The characters of Gargantua and his son Pantagruel were not created by Rabelais but inspired by various folk tales which had been collated in the early sixteenth century into five different works, collectively referred to as the Gargantuan Chronicles, the most popular of which, Les Grandes et Inestimables Cronicques du grant et enorme geant Gargantua, Rabelais references in his prologue."
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "It is the origin of the word Pantagruelism, meaning \"buffoonery or coarse humor with a satirical or serious purpose\";[10][additional citation(s) needed] and also gargantuan, meaning \"enormous\"."
+			},
+			{
+				"type": "line_break"
+			}
+		],
+		"type_id": "message",
+		"disabled_data": false,
+		"conversation_id": "7342098911638021680",
+		"state_id": "active",
+		"block_message_id": "7342098912284406156",
+		"sender": {
+			"id": "1105387902724063521",
+			"icon_url": "https://img.magnific.com/free-vector/woman-with-braided-hair-illustration_1308-174675.jpg",
+			"type": "websoft.hcm.collaborator",
+			"disp_name": "Вилкова Ольга Николаевна"
+		},
+		"create_date": "2026-10-20T17:00:15+00:00",
+		"edit_date": null,
+		"timestamp": "639281124159379560",
+		"message_state_id": "not_read",
+		"recipient_state_id": "read",
+		"recipients": [],
+		"disp_roles": [],
+		"files": [],
+		"reply": {
+			"state": "",
+			"message_id": "1m2oz8bpsf",
+			"create_date": "2026-10-20T16:57:59+00:00",
+			"block_message_id": "7342098912284406156",
+			"message_text": "The Five Books of the Lives and Deeds of Gargantua and Pantagruel (French: Les Cinq livres des faits et dits de Gargantua et Pantagruel),[a] often shortened to Gargantua and Pantagruel or the Cinq Livres (Five Books),[1] is a pentalogy of novels written in the 16th century by François Rabelais.[b] It tells the adventures of two giants, Gargantua (/ɡɑːrˈɡæntjuə/ gar-GAN-tew-ə; French: [ɡaʁɡɑ̃tɥa]) and his son Pantagruel (/pænˈtæɡruɛl, -əl, ˌpæntəˈɡruːəl/ pan-TAG-roo-el, -⁠əl, PAN-tə-GROO-əl; French: [pɑ̃taɡʁyɛl]). The work is written in an amusing, extravagant, and satirical vein, features much erudition, vulgarity, and wordplay, and is regularly compared with the works of William Shakespeare and James Joyce.[2][3]: xlii–v  [4]: xvii–iii  Rabelais was a polyglot, and the work introduced \"a great number of new and difficult words ... into the French language\".",
+			"files": [
+				{
+					"id": "7342099169839332669",
+					"type": "img",
+					"name": "image.png",
+					"url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Page11-682px-Rabelais_-_Pantagruel%2C_ca_1530.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+					"status": "publish"
+				}
+			],
+			"sender": {
+				"id": "1105387902724063510",
+				"icon_url": "https://img.magnific.com/free-vector/smiling-young-man-illustration_1308-174669.jpg",
+				"type": "websoft.hcm.collaborator",
+				"disp_name": "Анисимов Геннадий Федорович"
+			}
+		},
+		"replys": [
+			{
+				"state": "",
+				"message_id": "1m2oz8bpsf",
+				"create_date": "2026-10-20T16:57:59+00:00",
+				"block_message_id": "7342098912284406156",
+				"message_text": "The Five Books of the Lives and Deeds of Gargantua and Pantagruel (French: Les Cinq livres des faits et dits de Gargantua et Pantagruel),[a] often shortened to Gargantua and Pantagruel or the Cinq Livres (Five Books),[1] is a pentalogy of novels written in the 16th century by François Rabelais.[b] It tells the adventures of two giants, Gargantua (/ɡɑːrˈɡæntjuə/ gar-GAN-tew-ə; French: [ɡaʁɡɑ̃tɥa]) and his son Pantagruel (/pænˈtæɡruɛl, -əl, ˌpæntəˈɡruːəl/ pan-TAG-roo-el, -⁠əl, PAN-tə-GROO-əl; French: [pɑ̃taɡʁyɛl]). The work is written in an amusing, extravagant, and satirical vein, features much erudition, vulgarity, and wordplay, and is regularly compared with the works of William Shakespeare and James Joyce.[2][3]: xlii–v  [4]: xvii–iii  Rabelais was a polyglot, and the work introduced \"a great number of new and difficult words ... into the French language\".",
+				"files": [
+					{
+						"id": "7342099169839332669",
+						"type": "img",
+						"name": "image.png",
+						"url": "https://upload.wikimedia.org/wikipedia/commons/f/f7/Page11-682px-Rabelais_-_Pantagruel%2C_ca_1530.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+						"status": "publish"
+					}
+				],
+				"sender": {
+					"id": "1105387902724063510",
+					"icon_url": "https://img.magnific.com/free-vector/smiling-young-man-illustration_1308-174669.jpg",
+					"type": "websoft.hcm.collaborator",
+					"disp_name": "Анисимов Геннадий Федорович"
+				}
+			}
+		],
+		"forward": {
+			"state": ""
+		},
+		"reactions": [
+			{
+				"reaction_id": "1F44C",
+				"reaction_count": 1
+			}
+		],
+		"my_reaction": "1F44C"
+	},
+	{
+		"id": "x86y4c1vdn",
+		"text": [
+			{
+				"text": "The novels were written progressively without a preliminary plan."
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "1 Pantagruel Les horribles et épouvantables faits et prouesses du très renommé Pantagruel Roi des Dipsodes, fils du Grand Géant Gargantua c. 1532"
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "2 Gargantua La vie très horrifique du grand Gargantua, père de Pantagruel 1534"
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "3 The Third Book of Pantagruel Le tiers livre des faicts et dicts héroïques du bon Pantagruel 1546"
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "4 The Fourth Book of Pantagruel Le quart livre des faicts et dicts héroïques du bon Pantagruel 1552"
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "5 The Fifth Book of Pantagruel Le cinquiesme et dernier livre des faicts et dicts héroïques du bon Pantagruel c. 1564"
+			},
+			{
+				"type": "line_break"
+			}
+		],
+		"type_id": "message",
+		"disabled_data": false,
+		"conversation_id": "7342098911638021680",
+		"state_id": "active",
+		"block_message_id": "7342098912284406156",
+		"sender": {
+			"id": "1105387902724063523",
+			"icon_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Neko_1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+			"type": "websoft.hcm.collaborator",
+			"disp_name": "Лезова Надежда Семеновна"
+		},
+		"create_date": "2026-10-20T17:08:05+00:00",
+		"edit_date": null,
+		"timestamp": "639281128852539812",
+		"message_state_id": "not_read",
+		"recipient_state_id": "read",
+		"recipients": [],
+		"disp_roles": [],
+		"files": [],
+		"reply": {
+			"state": ""
+		},
+		"replys": [],
+		"forward": {
+			"state": ""
+		},
+		"reactions": [
+			{
+				"reaction_id": "1F37B",
+				"reaction_count": 2
+			}
+		],
+		"my_reaction": ""
+	},
+	{
+		"id": "hfn163do3w",
+		"text": [
+			{
+				"text": "The full modern English title for the work commonly known as "
+			},
+			{
+				"text": "Pantagruel",
+				"attributes": [
+					"b"
+				]
+			},
+			{
+				"text": " is The Horrible and Terrifying Deeds and Words of the Very Renowned Pantagruel King of the Dipsodes, Son of the Great Giant Gargantua and in French, Les horribles et épouvantables faits et prouesses du très renommé Pantagruel Roi des Dipsodes, fils du Grand Géant Gargantua. The original title of the work was Pantagruel roy des dipsodes restitué à son naturel avec ses faictz et prouesses espoventables.[12] Although most modern editions of Rabelais' work place Pantagruel as the second volume of a series, it was actually published first, around 1532 under the pen name \"Alcofribas Nasier\",[12] an anagram of François Rabelais."
+			}
+		],
+		"type_id": "message",
+		"disabled_data": false,
+		"conversation_id": "7342098911638021680",
+		"state_id": "active",
+		"block_message_id": "7342098912284406156",
+		"sender": {
+			"id": "1105387902724063510",
+			"icon_url": "https://img.magnific.com/free-vector/smiling-young-man-illustration_1308-174669.jpg",
+			"type": "websoft.hcm.collaborator",
+			"disp_name": "Анисимов Геннадий Федорович"
+		},
+		"create_date": "2026-10-20T17:09:47+00:00",
+		"edit_date": null,
+		"timestamp": "639281129873161701",
+		"message_state_id": "not_read",
+		"recipient_state_id": "read",
+		"recipients": [],
+		"disp_roles": [],
+		"files": [
+			{
+				"id": "7342102066675579635",
+				"type": "img",
+				"name": "image.png",
+				"url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Pantagruel_%28Russian%29_p._15.png/960px-Pantagruel_%28Russian%29_p._15.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+				"status": "publish"
+			}
+		],
+		"reply": {
+			"state": ""
+		},
+		"replys": [],
+		"forward": {
+			"state": ""
+		},
+		"reactions": [
+			{
+				"reaction_id": "1F44F",
+				"reaction_count": 1
+			}
+		],
+		"my_reaction": "1F44F"
+	},
+	{
+		"id": "chds7kaiqj",
+		"text": [
+			{
+				"text": "The narrative begins with the origin of giants; Pantagruel's particular genealogy; and his birth. His childhood is briefly covered, before his father sends him away to the universities. He acquires a great reputation. On receiving a letter with news that his father has been translated to Fairyland by Morgan le Fay, and that the Dipsodes, hearing of it, have invaded his land and are besieging a city, Pantagruel and his companions depart."
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "Through subterfuge, might, and urine, the besieged city is relieved, and their residents are invited to invade the Dipsodes, who mostly surrender to Pantagruel as he and his army approach their towns. During a downpour, Pantagruel shelters his army with his tongue, and the narrator travels into Pantagruel's mouth. He returns some months later and learns that the hostilities are over."
+			},
+			{
+				"type": "line_break"
+			}
+		],
+		"type_id": "message",
+		"disabled_data": false,
+		"conversation_id": "7342098911638021680",
+		"state_id": "active",
+		"block_message_id": "7342098912284406156",
+		"sender": {
+			"id": "1105387902724063521",
+			"icon_url": "https://img.magnific.com/free-vector/woman-with-braided-hair-illustration_1308-174675.jpg",
+			"type": "websoft.hcm.collaborator",
+			"disp_name": "Вилкова Ольга Николаевна"
+		},
+		"create_date": "2026-10-20T17:10:19+00:00",
+		"edit_date": null,
+		"timestamp": "639281130195950070",
+		"message_state_id": "not_read",
+		"recipient_state_id": "read",
+		"recipients": [],
+		"disp_roles": [],
+		"files": [],
+		"reply": {
+			"state": "",
+			"message_id": "hfn163do3w",
+			"create_date": "2026-10-20T17:09:47+00:00",
+			"block_message_id": "7342098912284406156",
+			"message_text": "The full modern English title for the work commonly known as Pantagruel is The Horrible and Terrifying Deeds and Words of the Very Renowned Pantagruel King of the Dipsodes, Son of the Great Giant Gargantua and in French, Les horribles et épouvantables faits et prouesses du très renommé Pantagruel Roi des Dipsodes, fils du Grand Géant Gargantua. The original title of the work was Pantagruel roy des dipsodes restitué à son naturel avec ses faictz et prouesses espoventables.[12] Although most modern editions of Rabelais' work place Pantagruel as the second volume of a series, it was actually published first, around 1532 under the pen name \"Alcofribas Nasier\",[12] an anagram of François Rabelais.",
+			"files": [
+				{
+					"id": "7342102066675579635",
+					"type": "img",
+					"name": "image.png",
+					"url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Pantagruel_%28Russian%29_p._15.png/960px-Pantagruel_%28Russian%29_p._15.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+					"status": "publish"
+				}
+			],
+			"sender": {
+				"id": "1105387902724063510",
+				"icon_url": "https://img.magnific.com/free-vector/smiling-young-man-illustration_1308-174669.jpg",
+				"type": "websoft.hcm.collaborator",
+				"disp_name": "Анисимов Геннадий Федорович"
+			}
+		},
+		"replys": [
+			{
+				"state": "",
+				"message_id": "hfn163do3w",
+				"create_date": "2026-10-20T17:09:47+00:00",
+				"block_message_id": "7342098912284406156",
+				"message_text": "The full modern English title for the work commonly known as Pantagruel is The Horrible and Terrifying Deeds and Words of the Very Renowned Pantagruel King of the Dipsodes, Son of the Great Giant Gargantua and in French, Les horribles et épouvantables faits et prouesses du très renommé Pantagruel Roi des Dipsodes, fils du Grand Géant Gargantua. The original title of the work was Pantagruel roy des dipsodes restitué à son naturel avec ses faictz et prouesses espoventables.[12] Although most modern editions of Rabelais' work place Pantagruel as the second volume of a series, it was actually published first, around 1532 under the pen name \"Alcofribas Nasier\",[12] an anagram of François Rabelais.",
+				"files": [
+					{
+						"id": "7342102066675579635",
+						"type": "img",
+						"name": "image.png",
+						"url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Pantagruel_%28Russian%29_p._15.png/960px-Pantagruel_%28Russian%29_p._15.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+						"status": "publish"
+					}
+				],
+				"sender": {
+					"id": "1105387902724063510",
+					"icon_url": "https://img.magnific.com/free-vector/smiling-young-man-illustration_1308-174669.jpg",
+					"type": "websoft.hcm.collaborator",
+					"disp_name": "Анисимов Геннадий Федорович"
+				}
+			}
+		],
+		"forward": {
+			"state": ""
+		},
+		"reactions": [],
+		"my_reaction": ""
+	},
+	{
+		"id": "zz4bdz70ew",
+		"text": [
+			{
+				"text": "After the success of Pantagruel, Rabelais revisited and revised his source material, producing an improved narrative of the life and deeds of Pantagruel's father: The Very Horrific Life of Great Gargantua, Father of Pantagruel (in French, La vie très horrifique du grand Gargantua, père de Pantagruel), commonly known as Gargantua."
+			}
+		],
+		"type_id": "message",
+		"disabled_data": false,
+		"conversation_id": "7342098911638021680",
+		"state_id": "active",
+		"block_message_id": "7342098912284406156",
+		"sender": {
+			"id": "1105387902724063523",
+			"icon_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Neko_1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+			"type": "websoft.hcm.collaborator",
+			"disp_name": "Лезова Надежда Семеновна"
+		},
+		"create_date": "2026-10-20T17:11:01+00:00",
+		"edit_date": null,
+		"timestamp": "639281130612402625",
+		"message_state_id": "not_read",
+		"recipient_state_id": "read",
+		"recipients": [],
+		"disp_roles": [],
+		"files": [
+			{
+				"id": "7342102368967490281",
+				"type": "img",
+				"name": "image.png",
+				"url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/be/Gustave_Dor%C3%A9_-_Gargantua.jpg/960px-Gustave_Dor%C3%A9_-_Gargantua.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+				"status": "publish"
+			}
+		],
+		"reply": {
+			"state": "",
+			"message_id": "hfn163do3w",
+			"create_date": "2026-10-20T17:09:47+00:00",
+			"block_message_id": "7342098912284406156",
+			"message_text": "The full modern English title for the work commonly known as Pantagruel is The Horrible and Terrifying Deeds and Words of the Very Renowned Pantagruel King of the Dipsodes, Son of the Great Giant Gargantua and in French, Les horribles et épouvantables faits et prouesses du très renommé Pantagruel Roi des Dipsodes, fils du Grand Géant Gargantua. The original title of the work was Pantagruel roy des dipsodes restitué à son naturel avec ses faictz et prouesses espoventables.[12] Although most modern editions of Rabelais' work place Pantagruel as the second volume of a series, it was actually published first, around 1532 under the pen name \"Alcofribas Nasier\",[12] an anagram of François Rabelais.",
+			"files": [
+				{
+					"id": "7342102066675579635",
+					"type": "img",
+					"name": "image.png",
+					"url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Pantagruel_%28Russian%29_p._15.png/960px-Pantagruel_%28Russian%29_p._15.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+					"status": "publish"
+				}
+			],
+			"sender": {
+				"id": "1105387902724063510",
+				"icon_url": "https://img.magnific.com/free-vector/smiling-young-man-illustration_1308-174669.jpg",
+				"type": "websoft.hcm.collaborator",
+				"disp_name": "Анисимов Геннадий Федорович"
+			}
+		},
+		"replys": [
+			{
+				"state": "",
+				"message_id": "hfn163do3w",
+				"create_date": "2026-10-20T17:09:47+00:00",
+				"block_message_id": "7342098912284406156",
+				"message_text": "The full modern English title for the work commonly known as Pantagruel is The Horrible and Terrifying Deeds and Words of the Very Renowned Pantagruel King of the Dipsodes, Son of the Great Giant Gargantua and in French, Les horribles et épouvantables faits et prouesses du très renommé Pantagruel Roi des Dipsodes, fils du Grand Géant Gargantua. The original title of the work was Pantagruel roy des dipsodes restitué à son naturel avec ses faictz et prouesses espoventables.[12] Although most modern editions of Rabelais' work place Pantagruel as the second volume of a series, it was actually published first, around 1532 under the pen name \"Alcofribas Nasier\",[12] an anagram of François Rabelais.",
+				"files": [
+					{
+						"id": "7342102066675579635",
+						"type": "img",
+						"name": "image.png",
+						"url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/3/3a/Pantagruel_%28Russian%29_p._15.png/960px-Pantagruel_%28Russian%29_p._15.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+						"status": "publish"
+					}
+				],
+				"sender": {
+					"id": "1105387902724063510",
+					"icon_url": "https://img.magnific.com/free-vector/smiling-young-man-illustration_1308-174669.jpg",
+					"type": "websoft.hcm.collaborator",
+					"disp_name": "Анисимов Геннадий Федорович"
+				}
+			}
+		],
+		"forward": {
+			"state": ""
+		},
+		"reactions": [],
+		"my_reaction": ""
+	},
+	{
+		"id": "kch178nbzi",
+		"text": [
+			{
+				"text": "The narrative begins with Gargantua's birth and childhood. He impresses his father (Grandgousier) with his intelligence, and is entrusted to a tutor. This education renders him a great fool, and he is later sent to Paris with a new tutor."
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "After Gargantua's reeducation, the narrator turns to some bakers from a neighbouring land who are transporting some fouaces. Some shepherds politely ask these bakers to sell them some of the said fouaces, which request escalates into war."
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "Gargantua is summoned, while Grandgousier seeks peace. The enemy king (Picrochole) is not interested in peace, so Grandgousier reluctantly prepares for violence. Gargantua leads a well-orchestrated assault, and defeats the enemy."
+			},
+			{
+				"type": "line_break"
+			}
+		],
+		"type_id": "message",
+		"disabled_data": false,
+		"conversation_id": "7342098911638021680",
+		"state_id": "active",
+		"block_message_id": "7342098912284406156",
+		"sender": {
+			"id": "1105387902724063523",
+			"icon_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Neko_1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+			"type": "websoft.hcm.collaborator",
+			"disp_name": "Лезова Надежда Семеновна"
+		},
+		"create_date": "2026-10-20T17:11:31+00:00",
+		"edit_date": null,
+		"timestamp": "639281130918896436",
+		"message_state_id": "not_read",
+		"recipient_state_id": "read",
+		"recipients": [],
+		"disp_roles": [],
+		"files": [],
+		"reply": {
+			"state": ""
+		},
+		"replys": [],
+		"forward": {
+			"state": ""
+		},
+		"reactions": [],
+		"my_reaction": ""
+	},
+	{
+		"id": "vsi33kcifa",
+		"text": [
+			{
+				"text": "In The Third Book of Pantagruel",
+				"attributes": [
+					"b"
+				]
+			},
+			{
+				"text": " (in French, Le tiers-livre de Pantagruel; the original title is Le tiers livre des faicts et dicts héroïques du bon Pantagruel[12]), Rabelais picks up where Pantagruel ended, continuing in the form of a dialogue."
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "Pantagruel and Panurge discuss the latter's profligacy, and Pantagruel determines to pay his debts for him. Panurge, out of debt, becomes interested in marriage, and wants advice."
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "A multitude of counsels and prognostications are met with, and repeatedly rejected by Panurge, until he wants to consult the Divine Bottle."
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "Preparations for a voyage thereto are made."
+			},
+			{
+				"type": "line_break"
+			}
+		],
+		"type_id": "message",
+		"disabled_data": false,
+		"conversation_id": "7342098911638021680",
+		"state_id": "active",
+		"block_message_id": "7342098912284406156",
+		"sender": {
+			"id": "1105387902724063523",
+			"icon_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Neko_1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+			"type": "websoft.hcm.collaborator",
+			"disp_name": "Лезова Надежда Семеновна"
+		},
+		"create_date": "2026-10-20T17:12:11+00:00",
+		"edit_date": null,
+		"timestamp": "639281131315365553",
+		"message_state_id": "not_read",
+		"recipient_state_id": "read",
+		"recipients": [],
+		"disp_roles": [],
+		"files": [
+			{
+				"id": "7342102656883194398",
+				"type": "img",
+				"name": "image.png",
+				"url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/8/86/Consultation_de_Her_Trippa%2C_chapitre_25_du_Tiers_Livre.jpg/960px-Consultation_de_Her_Trippa%2C_chapitre_25_du_Tiers_Livre.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+				"status": "publish"
+			}
+		],
+		"reply": {
+			"state": ""
+		},
+		"replys": [],
+		"forward": {
+			"state": ""
+		},
+		"reactions": [
+			{
+				"reaction_id": "1F649",
+				"reaction_count": 1
+			},
+			{
+				"reaction_id": "1F64A",
+				"reaction_count": 1
+			}
+		],
+		"my_reaction": ""
+	},
+	{
+		"id": "sg2x6huzcj",
+		"text": [
+			{
+				"text": "In "
+			},
+			{
+				"text": "The Fourth Book of Pantagruel ",
+				"attributes": [
+					"b"
+				]
+			},
+			{
+				"text": "(in French, Le quart-livre de Pantagruel; the original title is Le quart livre des faicts et dicts héroïques du bon Pantagruel[12]), Rabelais picks up where The Third Book ended, with Pantagruel and companions putting to sea for their voyage toward the Divine Bottle, Bacbuc (which is the Hebrew word for \"bottle\", בקבוק)"
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "They sail onward, passing, or landing at, places of interest, until they meet a storm, which they endure, until they can land again."
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "Having returned to sea, they kill a sea-monster, and drag that ashore, where they are attacked by Chitterlings. Fierce culinary combat ensues, but is peaceably resolved, having been interrupted by a flying pig-monster."
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"type": "line_break"
+			}
+		],
+		"type_id": "message",
+		"disabled_data": false,
+		"conversation_id": "7342098911638021680",
+		"state_id": "active",
+		"block_message_id": "7342098912284406156",
+		"sender": {
+			"id": "1105387902724063521",
+			"icon_url": "https://img.magnific.com/free-vector/woman-with-braided-hair-illustration_1308-174675.jpg",
+			"type": "websoft.hcm.collaborator",
+			"disp_name": "Вилкова Ольга Николаевна"
+		},
+		"create_date": "2026-10-20T17:13:17+00:00",
+		"edit_date": null,
+		"timestamp": "639281131977144844",
+		"message_state_id": "not_read",
+		"recipient_state_id": "read",
+		"recipients": [],
+		"disp_roles": [],
+		"files": [
+			{
+				"id": "7342102927968742786",
+				"type": "img",
+				"name": "image.png",
+				"url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mardi-Gras%2C_le_pourceau_volant_-_Chapitre_XLI_du_Quart_Livre.jpg/960px-Mardi-Gras%2C_le_pourceau_volant_-_Chapitre_XLI_du_Quart_Livre.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+				"status": "publish"
+			}
+		],
+		"reply": {
+			"state": ""
+		},
+		"replys": [],
+		"forward": {
+			"state": ""
+		},
+		"reactions": [],
+		"my_reaction": ""
+	},
+	{
+		"id": "p3sjhewyic",
+		"text": [
+			{
+				"text": "Again, they continue their voyage, passing, or landing at, places of interest, until the book ends, with the ships firing a salute, and Panurge soiling himself."
+			}
+		],
+		"type_id": "message",
+		"disabled_data": false,
+		"conversation_id": "7342098911638021680",
+		"state_id": "active",
+		"block_message_id": "7342098912284406156",
+		"sender": {
+			"id": "1105387902724063521",
+			"icon_url": "https://img.magnific.com/free-vector/woman-with-braided-hair-illustration_1308-174675.jpg",
+			"type": "websoft.hcm.collaborator",
+			"disp_name": "Вилкова Ольга Николаевна"
+		},
+		"create_date": "2026-10-20T17:13:24+00:00",
+		"edit_date": null,
+		"timestamp": "639281132043509171",
+		"message_state_id": "not_read",
+		"recipient_state_id": "read",
+		"recipients": [],
+		"disp_roles": [],
+		"files": [],
+		"reply": {
+			"state": ""
+		},
+		"replys": [],
+		"forward": {
+			"state": ""
+		},
+		"reactions": [],
+		"my_reaction": ""
+	},
+	{
+		"id": "5437r9bjlx",
+		"text": [
+			{
+				"text": "The"
+			},
+			{
+				"text": " Fifth Book of Pantagruel",
+				"attributes": [
+					"b"
+				]
+			},
+			{
+				"text": " (in French, Le cinquième-livre de Pantagruel; the original title is Le cinquiesme et dernier livre des faicts et dicts héroïques du bon Pantagruel[12]) was published posthumously around 1564, and chronicles the further journeyings of Pantagruel and his friends."
+			},
+			{
+				"type": "line_break"
+			},
+			{
+				"text": "At Ringing Island, the company find birds living in the same hierarchy as the Catholic Church. On Tool Island, the people are so fat they slit their skin to allow the fat to puff out. At the next island they are imprisoned by Furred Law-Cats, and escape only by answering a riddle. Nearby, they find an island of lawyers who nourish themselves on protracted court cases. In the Queendom of Whims, they uncomprehendingly watch a living-figure chess match with the miracle-working and prolix Queen Quintessence."
+			},
+			{
+				"type": "line_break"
+			}
+		],
+		"type_id": "message",
+		"disabled_data": false,
+		"conversation_id": "7342098911638021680",
+		"state_id": "active",
+		"block_message_id": "7342098912284406156",
+		"sender": {
+			"id": "1105387902724063510",
+			"icon_url": "https://img.magnific.com/free-vector/smiling-young-man-illustration_1308-174669.jpg",
+			"type": "websoft.hcm.collaborator",
+			"disp_name": "Анисимов Геннадий Федорович"
+		},
+		"create_date": "2026-10-20T17:14:08+00:00",
+		"edit_date": null,
+		"timestamp": "639281132480550123",
+		"message_state_id": "not_read",
+		"recipient_state_id": "read",
+		"recipients": [],
+		"disp_roles": [],
+		"files": [],
+		"reply": {
+			"state": "",
+			"message_id": "sg2x6huzcj",
+			"create_date": "2026-10-20T17:13:17+00:00",
+			"block_message_id": "7342098912284406156",
+			"message_text": "In The Fourth Book of Pantagruel (in French, Le quart-livre de Pantagruel; the original title is Le quart livre des faicts et dicts héroïques du bon Pantagruel[12]), Rabelais picks up where The Third Book ended, with Pantagruel and companions putting to sea for their voyage toward the Divine Bottle, Bacbuc (which is the Hebrew word for \"bottle\", בקבוק)\nThey sail onward, passing, or landing at, places of interest, until they meet a storm, which they endure, until they can land again.\nHaving returned to sea, they kill a sea-monster, and drag that ashore, where they are attacked by Chitterlings. Fierce culinary combat ensues, but is peaceably resolved, having been interrupted by a flying pig-monster.\n\n",
+			"files": [
+				{
+					"id": "7342102927968742786",
+					"type": "img",
+					"name": "image.png",
+					"url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mardi-Gras%2C_le_pourceau_volant_-_Chapitre_XLI_du_Quart_Livre.jpg/960px-Mardi-Gras%2C_le_pourceau_volant_-_Chapitre_XLI_du_Quart_Livre.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+					"status": "publish"
+				}
+			],
+			"sender": {
+				"id": "1105387902724063521",
+				"icon_url": "https://img.magnific.com/free-vector/woman-with-braided-hair-illustration_1308-174675.jpg",
+				"type": "websoft.hcm.collaborator",
+				"disp_name": "Вилкова Ольга Николаевна"
+			}
+		},
+		"replys": [
+			{
+				"state": "",
+				"message_id": "sg2x6huzcj",
+				"create_date": "2026-10-20T17:13:17+00:00",
+				"block_message_id": "7342098912284406156",
+				"message_text": "In The Fourth Book of Pantagruel (in French, Le quart-livre de Pantagruel; the original title is Le quart livre des faicts et dicts héroïques du bon Pantagruel[12]), Rabelais picks up where The Third Book ended, with Pantagruel and companions putting to sea for their voyage toward the Divine Bottle, Bacbuc (which is the Hebrew word for \"bottle\", בקבוק)\nThey sail onward, passing, or landing at, places of interest, until they meet a storm, which they endure, until they can land again.\nHaving returned to sea, they kill a sea-monster, and drag that ashore, where they are attacked by Chitterlings. Fierce culinary combat ensues, but is peaceably resolved, having been interrupted by a flying pig-monster.\n\n",
+				"files": [
+					{
+						"id": "7342102927968742786",
+						"type": "img",
+						"name": "image.png",
+						"url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bd/Mardi-Gras%2C_le_pourceau_volant_-_Chapitre_XLI_du_Quart_Livre.jpg/960px-Mardi-Gras%2C_le_pourceau_volant_-_Chapitre_XLI_du_Quart_Livre.jpg?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+						"status": "publish"
+					}
+				],
+				"sender": {
+					"id": "1105387902724063521",
+					"icon_url": "https://img.magnific.com/free-vector/woman-with-braided-hair-illustration_1308-174675.jpg",
+					"type": "websoft.hcm.collaborator",
+					"disp_name": "Вилкова Ольга Николаевна"
+				}
+			}
+		],
+		"forward": {
+			"state": ""
+		},
+		"reactions": [
+			{
+				"reaction_id": "2615",
+				"reaction_count": 1
+			}
+		],
+		"my_reaction": "2615"
+	},
+	{
+		"id": "2yh91x21ei",
+		"text": [
+			{
+				"text": "Passing by the abbey of the sexually prolific Semiquavers, and the Elephants and monstrous Hearsay of Satin Island, they come to the realms of darkness. Led by a guide from Lanternland, they go deep below the earth to the oracle of Bacbuc. After much admiring of the architecture and many religious ceremonies, they come to the sacred bottle itself. It utters the one word \"trinc\". After drinking liquid text from a book of interpretation, Panurge concludes wine inspires him to right action, and he forthwith vows to marry as quickly and as often as possible."
+			}
+		],
+		"type_id": "message",
+		"disabled_data": false,
+		"conversation_id": "7342098911638021680",
+		"state_id": "active",
+		"block_message_id": "7342098912284406156",
+		"sender": {
+			"id": "1105387902724063523",
+			"icon_url": "https://upload.wikimedia.org/wikipedia/commons/5/5f/Neko_1.png?utm_source=en.wikipedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+			"type": "websoft.hcm.collaborator",
+			"disp_name": "Лезова Надежда Семеновна"
+		},
+		"create_date": "2026-10-20T17:14:52+00:00",
+		"edit_date": null,
+		"timestamp": "639281132922340518",
+		"message_state_id": "not_read",
+		"recipient_state_id": "read",
+		"recipients": [],
+		"disp_roles": [],
+		"files": [],
+		"reply": {
+			"state": "",
+			"message_id": "5437r9bjlx",
+			"create_date": "2026-10-20T17:14:08+00:00",
+			"block_message_id": "7342098912284406156",
+			"message_text": "The Fifth Book of Pantagruel (in French, Le cinquième-livre de Pantagruel; the original title is Le cinquiesme et dernier livre des faicts et dicts héroïques du bon Pantagruel[12]) was published posthumously around 1564, and chronicles the further journeyings of Pantagruel and his friends.\nAt Ringing Island, the company find birds living in the same hierarchy as the Catholic Church. On Tool Island, the people are so fat they slit their skin to allow the fat to puff out. At the next island they are imprisoned by Furred Law-Cats, and escape only by answering a riddle. Nearby, they find an island of lawyers who nourish themselves on protracted court cases. In the Queendom of Whims, they uncomprehendingly watch a living-figure chess match with the miracle-working and prolix Queen Quintessence.\n",
+			"files": [],
+			"sender": {
+				"id": "1105387902724063510",
+				"icon_url": "https://img.magnific.com/free-vector/smiling-young-man-illustration_1308-174669.jpg",
+				"type": "websoft.hcm.collaborator",
+				"disp_name": "Анисимов Геннадий Федорович"
+			}
+		},
+		"replys": [
+			{
+				"state": "",
+				"message_id": "5437r9bjlx",
+				"create_date": "2026-10-20T17:14:08+00:00",
+				"block_message_id": "7342098912284406156",
+				"message_text": "The Fifth Book of Pantagruel (in French, Le cinquième-livre de Pantagruel; the original title is Le cinquiesme et dernier livre des faicts et dicts héroïques du bon Pantagruel[12]) was published posthumously around 1564, and chronicles the further journeyings of Pantagruel and his friends.\nAt Ringing Island, the company find birds living in the same hierarchy as the Catholic Church. On Tool Island, the people are so fat they slit their skin to allow the fat to puff out. At the next island they are imprisoned by Furred Law-Cats, and escape only by answering a riddle. Nearby, they find an island of lawyers who nourish themselves on protracted court cases. In the Queendom of Whims, they uncomprehendingly watch a living-figure chess match with the miracle-working and prolix Queen Quintessence.\n",
+				"files": [],
+				"sender": {
+					"id": "1105387902724063510",
+					"icon_url": "https://img.magnific.com/free-vector/smiling-young-man-illustration_1308-174669.jpg",
+					"type": "websoft.hcm.collaborator",
+					"disp_name": "Анисимов Геннадий Федорович"
+				}
+			}
+		],
+		"forward": {
+			"state": ""
+		},
+		"reactions": [
+			{
+				"reaction_id": "1F91D",
+				"reaction_count": 1
+			}
+		],
+		"my_reaction": ""
+	}
+]

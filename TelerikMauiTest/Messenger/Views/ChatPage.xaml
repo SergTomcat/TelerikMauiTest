@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WebsoftWorkspaceM.Messenger.ChatPage"
+		   xmlns:local="clr-namespace:WebsoftWorkspaceM.Messenger"
+             
+		   xmlns:c="clr-namespace:WebsoftWorkspaceM.Messenger.Converters"
+		    xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+		     xmlns:OurControls="clr-namespace:WebsoftWorkspaceM.Messenger.Controls"
+			
+			x:DataType="local:ChatViewModel"
+			
+		   Title="Chat"
+		   StyleClass="PrimaryContentPage"
+		   
+		   Shell.FlyoutItemIsVisible="True"
+			Shell.TabBarIsVisible="False">
+	
+	<ContentPage.Resources>
+		<ResourceDictionary>
+			
+			<ResourceDictionary.MergedDictionaries>
+
+				<ResourceDictionary Source="/Resources/Styles/Messenger_Chat.xaml" />
+				<ResourceDictionary Source="/Resources/Styles/Control_ChatIcon.xaml"/>
+			</ResourceDictionary.MergedDictionaries>
+
+			
+		</ResourceDictionary>
+	</ContentPage.Resources>
+
+
+	
+
+	<ContentPage.Content>
+		<Grid VerticalOptions="Fill" StyleClass="ChatPageLayout" RowDefinitions="1,*,Auto">
+			
+			<BoxView HorizontalOptions="Fill" HeightRequest="1" StyleClass="Separator,ChatPageSeparator" Grid.Row="0"/>
+
+
+			
+			<OurControls:ChatViewTK1 x:Name="MessagesList" Grid.Row="1" VerticalOptions="Fill" AutoScrollMode="Never" ZIndex="1"/>
+
+			<ActivityIndicator HorizontalOptions="Center" VerticalOptions="Center" IsRunning="{Binding IsLoading}" Color="Blue" Grid.Row="1" ZIndex="10"/>
+
+
+			<ContentView BackgroundColor="Gray" HeightRequest="30" Grid.Row="2">
+				<Entry/>
+			</ContentView>
+		</Grid>
+	</ContentPage.Content>
+
+
+</ContentPage>
